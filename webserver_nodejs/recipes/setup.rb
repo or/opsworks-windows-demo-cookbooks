@@ -1,9 +1,8 @@
-chef_gem "aws-sdk-cloudformation" do
+chef_gem "aws-sdk" do
   compile_time true
-  action :install
-  version "1.13.0"
+  version "3.0.0"
+  options ""
 end
-require 'aws-sdk-cloudformation'
 
 include_recipe "s3_file::dependencies"
 include_recipe "opsworks_iis"
