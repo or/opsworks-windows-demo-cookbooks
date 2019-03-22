@@ -1,7 +1,6 @@
-chef_gem "aws-sdk" do
-  compile_time true
+gem_package "aws-sdk" do
   version "3.0.0"
-  options " --no-verbose "
+  gem_binary "c:\\opscode\\chef\\embedded\\bin\\gem"
 end
 
 include_recipe "s3_file::dependencies"
