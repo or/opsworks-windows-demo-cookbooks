@@ -11,3 +11,4 @@ depends "opsworks_nodejs"
 depends "opsworks_iisnode"
 depends "opsworks_app_nodejs"
 
+#gem "aws-sdk-cloudformation", "1.13.0"
